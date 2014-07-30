@@ -4,7 +4,7 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>My First Webpage</title>
+    <title>Cinemate Contact</title>
     
      <link href="style.css" 
      rel="stylesheet" type="text/css" />
@@ -114,17 +114,23 @@
     </nav>
 
     <main>
-    <form name="input" action='http://titan.csit.rmit.edu.au/~e54061/wp/form-tester.php' method="get">
+    <form name="input" action='http://titan.csit.rmit.edu.au/~e54061/wp/form-tester.php' method="post">
         Email:<br> <input type="text" size="50" name="email"><br>
+		Subject:
+		<select name = "subject">
+		  <option value="Inquiries">Inquiries</option>
+		  <option value="Feedback">Feedback</option>
+		  <option value="Complaints">Complaints</option>
+		</select> <br>
         Message:<br>  <input type="text" class="inputtext" name="message"><br>
-        <input type="checkbox" name="writeback" value="Bike">Would you like us to write back?<br>
-        <input type="checkbox" name="vehicle" value="Car">Would you like to receive news and offers?<br>
+        <input type="checkbox" value="Bike">Would you like us to write back?<br>
+        <input type="checkbox" value="Car">Would you like to receive news and offers?<br>
         <input type="submit" value="Submit" >
     </form>
     </main>
 
     <footer>
-      &copy; SUPERCINEMA 2014. If you have any further questions, please click <a href='http://google.com'>here</a>, 
+      &copy; CINEMATE 2014. If you have any further questions, please click <a href='http://google.com'>here</a>, 
       or alterntaively <a href='contact.html'>CONTACT US</a> |
       <a href="http://validator.w3.org/check?uri=referer"><img style="border:0;height:31px"
         src="http://www.w3.org/html/logo/downloads/HTML5_Logo_32.png" alt="HTML Validator" /></a> |
